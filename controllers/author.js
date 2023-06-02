@@ -1,4 +1,4 @@
-const con = require('../utils/db')
+const con = require('../../joga_sequelize/utils/db')
 
 const getAuthors = (req,res) =>{
     let query = `SELECT * FROM author WHERE id="${req.params.author_ID}}"`
